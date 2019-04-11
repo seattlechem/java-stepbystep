@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    My first login jsp!
+    My first login jsp, ${name}!
 </body>
 </html>
