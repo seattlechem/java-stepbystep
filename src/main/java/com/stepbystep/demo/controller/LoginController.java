@@ -1,6 +1,6 @@
 package com.stepbystep.demo.controller;
 
-import com.stepbystep.demo.service.Service;
+import com.stepbystep.demo.service.LoginService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class LoginController {
     
     @Autowired
-    Service service;
+    LoginService service;
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String loginPage() {
