@@ -1,7 +1,5 @@
 package com.stepbystep.demo.controller;
 
-import java.io.Console;
-
 import com.stepbystep.demo.service.TodoService;
 
 import org.springframework.beans.factory.annotation.Autowired;
