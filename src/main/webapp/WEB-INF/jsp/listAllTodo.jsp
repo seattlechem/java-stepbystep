@@ -11,5 +11,6 @@
 </head>
 <body>
     ${allTodos}
+    <a href="./addtodo">Add To Do</a>
 </body>
 </html>

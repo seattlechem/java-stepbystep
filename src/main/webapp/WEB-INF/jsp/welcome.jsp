@@ -10,5 +10,6 @@
 </head>
 <body>
     Welcome ${userName}!
+    <a href="./listtodos">List all Todos</a>
 </body>
 </html>
